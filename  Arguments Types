@@ -1,0 +1,24 @@
+# Q4 (Positional): Ek function add_numbers(num1, num2) likho jo do numbers ka sum print kare .
+
+ 
+
+# Q5 (Default): Ek function myFun(x, y) likho jisme y ki default value 50 ho. Isko ek argument ke saath call karke dikhao .
+
+def myFun(x, y=50):
+    print("x: ", x)
+    print("y: ", y)
+ 
+ 
+myFun(10)
+
+# Q6 (Keyword): Ek function student(firstname, lastname) banao. Isse arguments ka order badal kar (keyword arguments use karke) call karo .
+
+def student(firstname, lastname):
+    print(firstname, lastname)
+ 
+ 
+student(firstname= "skill", lastname="‘Circle'")
+student(lastname="rahul", firstname="‘Mayank'")
+
+
+# Q7 (Positional Logic): Ek function nameAge(name, age) banao jo dikhaye ki arguments ka order (position) kyu matter karta hai .
