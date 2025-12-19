@@ -19,3 +19,5 @@ evenOdd(22)
 def greet(name):
     print(f"{name} hello")
 greet("sumir")
+
+print("Ji")
